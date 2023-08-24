@@ -22,7 +22,7 @@ function loadImage(){
     backgroundImage.src = "./images/bg.jfif"
 
     spaceshipImage = new Image()
-    spaceshipImage.src = "/images/spaceship.png"
+    spaceshipImage.src = "./images/spaceship.png"
  
     bulletImage = new Image()
     bulletImage.src = "./images/bullet.png"
