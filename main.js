@@ -19,22 +19,22 @@ let spaceshipY = canvas.height - 48
 //이미지 세팅
 function loadImage(){
     backgroundImage = new Image();
-    backgroundImage.src = "/images/bg.jfif"
+    backgroundImage.src = "./images/bg.jfif"
 
     spaceshipImage = new Image()
     spaceshipImage.src = "/images/spaceship.png"
  
     bulletImage = new Image()
-    bulletImage.src = "/images/bullet.png"
+    bulletImage.src = "./images/bullet.png"
 
     enemyImage = new Image()
-    enemyImage.src = "/images/enemy.png"
+    enemyImage.src = "./images/enemy.png"
 
     gameOverImage = new Image()
-    gameOverImage.src = "/images/gameover.png"
+    gameOverImage.src = "./images/gameover.png"
 
     boomImage = new Image()
-    boomImage.src = "/images/bang.png"
+    boomImage.src = "./images/bang.png"
 }
 
 //키보드이벤트 셋팅
